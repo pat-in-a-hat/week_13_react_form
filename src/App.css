@@ -57,23 +57,37 @@ li:hover {
   background-color: burlywood;
 }
 
-.flex-container{
-  display: flex;
+.grid-container{
+  display: grid;
+  grid-gap: 20px;
   justify-content: center;
+  align-items: center;
 }
 
-form{
-  flex: 50%;
-  background-color: blanchedalmond;
-}
-
-.login-title {
+.login {
   padding: 10px;
   border: 2px;
   border-style: solid;
   border-color:blanchedalmond;
-  border-radius: 5%;
+  border-radius: 2%;
   border-width: 50%;
   border-spacing: 1%;
 }
 
+button {
+  background-color:slategray;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+button:hover {
+  border-color: black;
+  align-self: center;
+  justify-self: center;
+}
+
+input:hover{
+  border-color: black;
+}
